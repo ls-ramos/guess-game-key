@@ -1,0 +1,13 @@
+<resources>
+    <!--Hide the Action Bar on the top of the screen: @style/Theme.AppCompat.Light.NoActionBar -->
+    <style name="AppTheme"  parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!--Set the default color of the bottom line of the EditText-->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--Make the Activity FullScreen-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guess Game</string>
+
+    <!--Menu Activity-->
+        <string name="description_Img">imgGuess</string>
+
+        <!--Menu Buttons text-->
+        <string name="text_buttonSingle">SinglePlayer</string>
+        <string name="text_ButtonMulti">MultiPlayer</string>
+        <string name="text_ButtonHowPlay">How To Play</string>
+
+    <!--SinglePlayer and MultiPlayer Activities-->
+        <!--EditText hint text-->
+        <string name="text_InputHint">Type your attempt&#8230;</string>
+
+        <!-- Help bar text-->
+        <string name="text_ButtonHelpBar0">0</string>
+        <string name="text_ButtonHelpBar1">1</string>
+        <string name="text_ButtonHelpBar2">2</string>
+        <string name="text_ButtonHelpBar3">3</string>
+        <string name="text_ButtonHelpBar4">4</string>
+        <string name="text_ButtonHelpBar5">5</string>
+        <string name="text_ButtonHelpBar6">6</string>
+        <string name="text_ButtonHelpBar7">7</string>
+        <string name="text_ButtonHelpBar8">8</string>
+        <string name="text_ButtonHelpBar9">9</string>
+
+        <!--Guess button text-->
+        <string name="text_buttonGuess">Guess</string>
+
+        <!--Back to menu dialog texts-->
+        <string name="text_TitleBackDialog">Are you sure do you want to go back ?</string>
+        <string name="text_MessagebackDialog">That will make you lose your current game&#8230;</string>
+        <string name="text_Negative">No</string>
+        <string name="text_Positive">Yes</string>
+        <string name="title_activity_sound_control">SoundControl</string>
+
+    <string name="SignOut_text">Logout</string>
+    <string name="signin_other_error">Error to connect, check your internet please</string>
+    <string name="Quick_match_button_text">Find a match</string>
+    <string name="invite_friends_button_text">Challenge a friend</string>
+    <string name="invitations_button">Invitations</string>
+    <string name="backMenu_fromMultiplayer_text">Back</string>
+    <string name="signin_failure">Error to connect, check your internet please</string>
+    <string name="buttonSendNumber_text">Send Password</string>
+    <string name="gameControlText">Type your password&#8230;</string>
+    <string name="invalidInput">The number typed is invalid</string>
+    <string name="WonMessage_text">won</string>
+
+    <string name="wonMessage_text">Congratulations you discovered your opponent password in</string>
+    <string name="lostMessage_text">Your opponent was faster&#8230; but do not give up try again !!</string>
+    <string name="button_endMultiGame_text">Back to menu</string>
+    <string name="text_typeYourNumber">Type your password and click in send&#8230;</string>
+    <string name="text_gameStartedMessage">Now discover the password of you opponent, type your attempt&#8230;</string>
+    <string name="text_NumberArrived">Waiting password of opponent to start the game</string>
+    <string name="okMessage">OK</string>
+    <string name="notConnectedError">Error - to do that action you need to be connected</string>
+    <string name="startSingleMessage">Password generated</string>
+    <string name="attemptsText">Attempts</string>
+
+    <!--first screen of how to play-->
+    <string name="howToPlay_text1">Guess is a simple logic game, your objective is to find out the
+    password of your opponent with as few attempts as possible, for that you have the help of your hacker cellphone</string>
+    <string name="howToPlay_text2">the first step is log in with your google account and choose the
+                                                type of game: SinglePlayer or MultiPlayer</string>
+    <string name="howToPlay_textSingle">Singleplayer: the cellphone will create a random password
+                                            and your objective is to discover it</string>
+    <string name="howToPlay_textMulti">Multiplayer: you will make your password and your opponent his,
+    once the game start discover the password of your opponent before him discover yours</string>
+    <string name="howToPlay_textPs">*The password always has 4 digits and never has repeated digits
+                \nWrong Examples: 1224,12345,142
+                \nRight Examples: 1739,1234,5678</string>
+
+    <!--second screen of how to play-->
+    <string name="howToPlay_textKeyboard">That is your keyboard, use it to type your attempts</string>
+    <string name="howToPlay_textBtnGuess">After type your guess you must click on that button so your
+        hacker cellphone can help you saying how close your attempt is from the real password</string>
+    <string name="howToPlay_textHelpBar">That is your help bar use it to mark the numbers you are sure
+        exits in the real password and the numbers you are sure does not exist</string>
+
+    <!--third screen of how to play-->
+    <string name="howToPlay_text3">After typing your attempt the cellphone will help you as said before,
+    to help you the cellphone use a simple system that can identify if any digit of your attempt exist in the password
+    of your opponent and if it is in the correct or wrong position</string>
+
+    <string name="howToPlay_textSimbol">to tell you that information the cellphone uses two symbols:</string>
+
+    <string name="howToPlay_textX">
+    - mean you accepted one number of the password but in the wrong position:</string>
+    <string name="howToPlay_textExample1">
+    Example:\n
+
+    Password: 4 6 5 3\n
+    Your attempt:8 2 4 7\n
+    </string>
+    <string name="howToPlay_textExample1.1">Answer of the hacker system:</string>
+    <string name="howToPlay_textExample1.2">The number 4 is part of the password but in your attempt
+        is in the wrong position that is why the system answer is:</string>
+
+    <string name="howToPlay_textO">
+    - means you accepted one number of the password in the right position:\n
+    </string>
+    <string name="howToPlay_textExample2">
+    Example:\n
+    Opponent\'s Password: 4 6 5 3\n
+    Your attempt: 4 8 2 7\n
+    </string>
+    <string name="howToPlay_textExample2.1">Answer of the hacker system:</string>
+    <string name="howToPlay_textExample2.2">The number 4 is part of the password and in your attempt
+        is in the right position that is why the system answer is: </string>
+
+    <string name="howToPlay_textExample3">
+    Got it? Watch below one more example
+    \nOpponent\'s Password: 4 6 5 3\n
+    Your attempt: 4 5 8 6\n
+    </string>
+
+    <string name="howToPlay_textExample3.1">Answer of the hacker system:</string>
+    <string name="howToPlay_textExample3.2">The number 4 like before exits in the password and is in the right
+    position, The numbers 5 and 6 also exits in the password but are in the wrong position</string>
+    <string name="howToPlay_textTip">Tip: when the hacker system answer is empty means none of the numbers
+    in your attempt exist in the password, do not forget to mark that down on the help bar.</string>
+
+    <string name="howToPlay_TextTEachingScreen">That is your game screen:</string>
+    <string name="howToPlay_textElements">Let\'s see how to use each element of the screen</string>
+    <string name="howToPlay_textOnline">On the multiplayer match there are two different types:\n\n
+    Find a Match - That will find an random opponent\n
+        \n
+    Challenge a friend - You can challenge a friend or someone close to you\n
+        \n
+    At the invitations screen you will see the invitations that friends sent to you to accept click on SEE MORE and ACCEPT:</string>
+    <string name="howToPlay_textSound">You always can turn off or turn on the song here</string>
+    <string name="howToPlay_textAchievements">Click here to see your achievements
+        \n*Unlock achievements increse your point in the ranking</string>
+    <string name="howToPlay_textLeaderboard">Click here to visualize your position in the ranking</string>
+
+    <string name="connectedMessage">You are connected make sure to keep your internet connection to
+        unlock new achievements</string>
+    <string name="disconnectedMessage">You are not connected you will not be able to unlock new achievements</string>
+    <string name="isConnectedText">Connected</string>
+    <string name="isDisconnectedText">Disconnected</string>
+    <string name="acceptInvitationDescription">acceptInvitation</string>
+    <string name="leaderboardDescription">leaderborad</string>
+    <string name="archievementsDescription">archievements</string>
+    <string name="soundDescription">sound</string>
+    <string name="circleDescription">circle</string>
+    <string name="crossDescription">cross</string>
+    <string name="keyboardDescriptions">keyboard</string>
+    <string name="btn_guessDescription">btnguess</string>
+    <string name="helpBarDescription">helpBar</string>
+    <string name="screenSingleDescription">Screen Single</string>
+    <string name="btnNext_howToPlay">Próximo</string>
+    <string name="btnBack_howToPlay">Voltar</string>
+    <string name="splashDescription">splash</string>
+    <string name="btnNext_MenuText">Menu</string>
+    <string name="btnNext_NextText">Próximo</string>
+    <string name="multi_PasswordHint">Type your password&#8230;</string>
+    <string name="multi_AttemptdHint">Type your attempt&#8230;</string>
+    <string name="opponentNumberText">Oponent\'s password:</string>
+    <string name="myNumberText">My password:</string>
+    <string name="errorTosendNumber">ERROR - Você ou seu opponente está sem conexão</string>
+    <string name="sendingText">Sending</string>
+    <string name="creatingRoom">Creating room</string>
+    <string name="autoConectingTitle">Cancel Auto Connect</string>
+    <string name="autoConectingText">Do you want to cancel the auto connection ?
+        (is highly recommended to click NO for a best game experience)</string>
+    <string name="yesText">Yes</string>
+    <string name="noText">No</string>
+    <string name="errorArchievements">You are not connected your points will not be updated</string>
+    <string name="rightArchievements">Ranking updated</string>
+    <string name="invitationArrivedText">You have an invitation</string>
+
+    <string name="clear">&#60;-</string>
+
+    <string name="gamehelper_sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
+    <string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+    <string name="gamehelper_license_failed">License check failed.</string>
+    <string name="gamehelper_unknown_error">Unknown error.</string>
+
+    <string name="app_id">126215526248</string>
+    <string name="package_name">com.longynuss.guessgame</string>
+    <string name="achievement_i_never_give_up_">CgkI6K6gmNYDEAIQAA</string>
+    <string name="achievement_i_am_getting_better">CgkI6K6gmNYDEAIQAQ</string>
+    <string name="achievement_logical_brain">CgkI6K6gmNYDEAIQAg</string>
+    <string name="achievement_im_not_kidding_here">CgkI6K6gmNYDEAIQAw</string>
+    <string name="achievement_yes_i_just_did_that_">CgkI6K6gmNYDEAIQBA</string>
+    <string name="achievement_what_a_lucky_son_of_a...">CgkI6K6gmNYDEAIQBQ</string>
+    <string name="achievement_searching_the_luck">CgkI6K6gmNYDEAIQBg</string>
+    <string name="achievement_starting_to_learn">CgkI6K6gmNYDEAIQBw</string>
+    <string name="achievement_logic_always_wins">CgkI6K6gmNYDEAIQCA</string>
+    <string name="achievement_no_chance_for_the_opponent">CgkI6K6gmNYDEAIQCQ</string>
+    <string name="achievement_what_just_happened_">CgkI6K6gmNYDEAIQCg</string>
+    <string name="achievement_oh_come_on_your_friend_told_you_">CgkI6K6gmNYDEAIQCw</string>
+    <string name="leaderboard_ranking">CgkI6K6gmNYDEAIQDA</string>
+
+
+    <!--Replace with your own ad unit id. -->
+    <string name="ad_unit_id">ca-app-pub-3178146623136354/6437301022</string>
+    <string name="connectingRoom">Connecting to room</string>
+    <string name="createdRoom">Room Created</string>
+    <string name="errorRoom">Error creating - check your connection</string>
+    <string name="waitingRoomCanceled">Game canceled</string>
+    <string name="reconnectError">We are reconnecting you - Try again</string>
+    <string name="lineDescription1">img_1</string>
+    <string name="lineDescription2">img_2</string>
+    <string name="lineDescription3">img_3</string>
+    <string name="lineDescription4">img_4</string>
+    <string name="btn_privacyPolicyText">Privacy Policy</string>
+    <string name="opponentLeaftText">Your opponent left the game</string>
+    <string name="learnToPlayTitle">LErn to play</string>
+    <string name="learnMessageText">Do you want to do thetutorial first ? (It is highly recommended to click YES)</string>
+    <string name="helpGuesses1">On this attempt you have</string>
+    <string name="helpGuesses2">digit(s) at the correct position and</string>
+    <string name="helpGuesses3">at the wrong position</string>
+    <string name="Oexplaining">O- digits at the right position</string>
+    <string name="Xexplaining">X- digits at the wrong position</string>
+    <string name="helpDescription_text">helpImg</string>
+    <string name="googlePlayServicesError">Por favor, atualize ou instale os google play services antes de usar o aplicativo.</string>
+</resources>

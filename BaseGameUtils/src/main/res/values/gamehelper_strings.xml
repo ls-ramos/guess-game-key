@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gamehelper_sign_in_failed">Erro para logar, cheque a sua conexão com a internet</string>
+    <string name="gamehelper_app_misconfigured">A aplicação está configurada incorretamente</string>
+    <string name="gamehelper_license_failed">Erro para checar a licensa</string>
+    <string name="gamehelper_unknown_error">Erro desconhecido</string>
+</resources>

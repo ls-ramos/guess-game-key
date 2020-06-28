@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffff</color>
+    <color name="colorPrimaryDark">#ffff</color>
+    <color name="colorAccent">@color/text_colorBlack</color>
+
+    <color name="text_colorPurple">#e57508db</color>
+    <color name="text_colorGreen">#e505c712</color>
+    <color name="text_colorRed">#e0cd0816</color>
+    <color name="text_colorBlack">#e5000000</color>
+
+    <color name="buttonHelpBar_Green">#6407de03</color>
+    <color name="buttonHelpBar_Red">#64de0303</color>
+    <color name="buttonHelpBar_Black">#633f3f3f</color>
+    <color name="backgroundSplash">#535353</color>
+</resources>

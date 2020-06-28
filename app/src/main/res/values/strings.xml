@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Guess Game</string>
+
+    <!--MainActivity Activity-->
+    <string name="description_Img">imgGuess</string>
+
+    <!--MainActivity Buttons text-->
+    <string name="text_buttonSingle">Um Jogador</string>
+    <string name="text_ButtonMulti">Online</string>
+    <string name="text_ButtonHowPlay">Como Jogar</string>
+
+    <!--SinglePlayer and MultiPlayer Activities-->
+    <!--EditText hint text-->
+    <string name="text_InputHint">Digite sua tentativa&#8230;</string>
+
+    <!-- Help bar texts ()-->
+    <string name="text_ButtonHelpBar0">0</string>
+    <string name="text_ButtonHelpBar1">1</string>
+    <string name="text_ButtonHelpBar2">2</string>
+    <string name="text_ButtonHelpBar3">3</string>
+    <string name="text_ButtonHelpBar4">4</string>
+    <string name="text_ButtonHelpBar5">5</string>
+    <string name="text_ButtonHelpBar6">6</string>
+    <string name="text_ButtonHelpBar7">7</string>
+    <string name="text_ButtonHelpBar8">8</string>
+    <string name="text_ButtonHelpBar9">9</string>
+
+    <!--Guess button text-->
+    <string name="text_buttonGuess">Guess</string>
+
+    <!--Back to menu dialog texts-->
+    <string name="text_TitleBackDialog">Você tem certeza que deseja voltar ?</string>
+    <string name="text_MessagebackDialog">Se voltar perderá o jogo atual&#8230;</string>
+    <string name="text_Negative">Não</string>
+    <string name="text_Positive">Sim</string>
+    <string name="title_activity_sound_control">SoundControl</string>
+
+    <string name="SignOut_text">Deslogar</string>
+    <string name="signin_other_error">Erro - não foi possivel conectar porfavor checar sua internet</string>
+    <string name="Quick_match_button_text">Encontrar Partida</string>
+    <string name="invite_friends_button_text">Desafiar Amigo</string>
+    <string name="invitations_button">Convites</string>
+    <string name="backMenu_fromMultiplayer_text">Voltar</string>
+    <string name="signin_failure">Erro - não foi possivel conectar porfavor checar sua internet</string>
+    <string name="buttonSendNumber_text">Enviar Numero</string>
+    <string name="gameControlText">Digite Seu Número&#8230;</string>
+    <string name="invalidInput">O número digitado é invalído</string>
+    <string name="WonMessage_text">won</string>
+
+    <string name="wonMessage_text">Parabéns vôce descobriu a senha do seu adversário em:</string>
+    <string name="lostMessage_text">O seu adversario foi mais rápido desta vez, mas não desista !!</string>
+    <string name="button_endMultiGame_text">Voltar para Menu</string>
+    <string name="text_typeYourNumber">DIgite seu número e cllique em enviar&#8230;</string>
+    <string name="text_gameStartedMessage">Agora descubra a senha do adversário, Digite seu chute&#8230;</string>
+    <string name="text_NumberArrived">Esperando pela senha do adversário para começar o jogo&#8230;</string>
+    <string name="okMessage">OK</string>
+    <string name="notConnectedError">Erro - Para realizar essa ação você precisa estar conectado</string>
+    <string name="startSingleMessage">Senha gerada !</string>
+    <string name="attemptsText">Tentativas</string>
+
+    <string name="clear">&#60;-</string>
+
+    <string name="connectedMessage">Você está conectado mantenha a conexão com a internet para poder
+        liberar conquistas</string>
+    <string name="disconnectedMessage">Você não está conectado não será possivel liberar novas conquistas</string>
+    <string name="isConnectedText">Conectado</string>
+    <string name="isDisconnectedText">Desconectado</string>
+
+    <!--HOW TO PLAY-->
+    <!--first screen of how to play-->
+    <string name="howToPlay_text1">Guess é um jogo de lógica em que você precisa descobrir a
+						senha de seu oponente no menor número de tentativas possíveis com auxilio de seu celular hacker</string>
+    <string name="howToPlay_text2">O primeiro passo é logar com a sua conta do google e escolher o
+											tipo de jogo: Um Jogador ou MultiJogador.</string>
+    <string name="howToPlay_textSingle">Um jogador: A máquina vai gerar uma senha aleatória e seu
+																objetivo é descobri-la</string>
+    <string name="howToPlay_textMulti">MultiJogador: Você criará sua senha e seu oponente a dele,
+							para ganhar descubra a senha do oponente antes que ele descubra a sua</string>
+    <string name="howToPlay_textPs">*A senha sempre tem 4 digitos e não possui números repetidos.
+						\nExemplos inválidos: 1224,12345,142
+						\nExemplos válidos: 1739,1234,5678</string>
+
+    <!--second screen of how to play-->
+    <string name="howToPlay_textKeyboard">Esse é o seu teclado, você o usará para digitar seus palpites</string>
+    <string name="howToPlay_textBtnGuess">Após digitar seu palpite você deve clicar nesse botão, para então
+				o celular hacker te dar dicas de quão perto o seu palpite está da senha do oponente</string>
+    <string name="howToPlay_textHelpBar">Essa é sua barra de ajuda usa-a para marcar numeros que
+			você tem certeza que existem na senha do adversario e numero que você tem certeza que não exitem.</string>
+
+    <!--third screen of how to play-->
+    <string name="howToPlay_text3">Ao dar o seu palpite como dito anteriormente seu celular hacker te
+				ajudará a saber o quão bom seu palpite foi, para fazer isso ele dispoe de um simples sistema
+				hacker que consegue indentificar se algum digito do seu palpite existe na senha do adversário e
+				se está na posição correta ou incorreta.</string>
+
+    <string name="howToPlay_textSimbol">para te falar o celular utiliza de dois simbolos:</string>
+
+    <string name="howToPlay_textX">
+			- significa que você acertou um número do seu adversário na posição incorreta:</string>
+    <string name="howToPlay_textExample1">
+			Exemplo:\n
+
+			Senha do Oponente: 4 6 5 3\n
+			Seu palpite:8 2 4 7\n
+			</string>
+    <string name="howToPlay_textExample1.1">Resposta do sistema hacker:</string>
+    <string name="howToPlay_textExample1.2">Como o número 4 encontra-se no numero do seu oponente porém
+			na posição incorreta o sistema de mostra: </string>
+
+    <string name="howToPlay_textO">
+			- significa que você acertou um número do seu oponente na posição correta:\n
+			</string>
+    <string name="howToPlay_textExample2">
+			Exemplo:\n
+			Numero do Oponente: 4 6 5 3\n
+			Seu Palpite         4 8 2 7\n
+			</string>
+    <string name="howToPlay_textExample2.1">Resposta do sistema hacker:</string>
+    <string name="howToPlay_textExample2.2">Como o número 4 encontra-se no numero do seu oponente e
+			está na posição correta o sistema de mostra: </string>
+
+    <string name="howToPlay_textExample3">
+			Entendeu? Segue abaixo mais um exemplo\n
+			Numero do Oponente:  4 6 5 3\n
+			Seu Palpite          4 5 8 6\n
+			</string>
+
+    <string name="howToPlay_textExample3.1">Resposta do sistema hacker:</string>
+    <string name="howToPlay_textExample3.2">Pois um número do palpite existe na senha e estava na posição correta(no caso o 4) e
+				dois existem e estam na posiçao incorreta(no caso o 5 e 6)</string>
+    <string name="howToPlay_textTip">Dica: Quando a resposta do sistema for vaziza significa que
+				nenhum dos numeros do palpite existe na senha não se esqueça de anotar isso na barra de ajuda</string>
+
+    <string name="howToPlay_TextTEachingScreen">Essa é sua tela de jogo</string>
+    <string name="howToPlay_textElements">Vamos entender o para que cada elemento da tela é usado</string>
+    <string name="howToPlay_textOnline">Na partida online exitem dois modos diferentes:\n\n
+			Encontrar partida - vai encontrar um oponente aleatorio\n
+				\n
+			Desafiar um amigo - você pode desafiar um amigo ou jogador proximo a você\n
+				\n
+			Na tela convites você visualiza convites enviados a você para aceitar clique em ver mais e então em aceitar:</string>
+    <string name="howToPlay_textSound">Você sempre pode desligar ou ligar a música clicando aqui</string>
+    <string name="howToPlay_textAchievements">Clique aqui para visualizar todas suas conquistas
+				\n*Liberar conquistas aumenta sua pontuação no ranking</string>
+    <string name="howToPlay_textLeaderboard">Clique aqui para visualizar sua colocação no ranking</string>
+
+    <!--IMAGES DESCRIPTIONS-->
+    <string name="acceptInvitationDescription">acceptInvitation</string>
+    <string name="leaderboardDescription">leaderborad</string>
+    <string name="archievementsDescription">archievements</string>
+    <string name="soundDescription">sound</string>
+    <string name="circleDescription">circle</string>
+    <string name="crossDescription">cross</string>
+    <string name="keyboardDescriptions">keyboard</string>
+    <string name="btn_guessDescription">btnguess</string>
+    <string name="helpBarDescription">helpBar</string>
+    <string name="screenSingleDescription">Screen Single</string>
+    <string name="splashDescription">splash</string>
+
+    <string name="btnNext_howToPlay">Próximo</string>
+    <string name="btnBack_howToPlay">Voltar</string>
+
+    <string name="btnNext_MenuText">Menu</string>
+    <string name="btnNext_NextText">Próximo</string>
+
+    <string name="multi_PasswordHint">Digite sua senha&#8230;</string>
+    <string name="multi_AttemptdHint">Digite seu palpite&#8230;</string>
+
+    <string name="opponentNumberText">Senha do oponente:</string>
+    <string name="myNumberText">Minha senha:</string>
+
+    <string name="errorTosendNumber">ERROR - Você ou seu opponente está sem conexão</string>
+
+    <string name="sendingText">Enviando</string>
+    <string name="creatingRoom">Criando sala</string>
+
+    <string name="autoConectingTitle">Cancelar Auto Conexão</string>
+    <string name="autoConectingText">Você deseja cancelar a auto conexão ?
+        (è muito recomedado marcar NÃO para uma melhor experiência de jogo)</string>
+
+    <string name="yesText">Sim</string>
+    <string name="noText">Não</string>
+
+    <string name="errorArchievements">Você não está conectado a pontuação não será atualizada.</string>
+    <string name="rightArchievements">Pontuação atualizada</string>
+    <string name="invitationArrivedText">Você tem um convite</string>
+
+    <string name="connectingRoom">Conectando</string>
+    <string name="createdRoom">Sala Criada</string>
+    <string name="errorRoom">Erro criando a sala - cheque sua conexão</string>
+    <string name="waitingRoomCanceled">Jogo cancelado</string>
+    <string name="reconnectError">Estamos te reconectando - Tente novamente</string>
+
+    <string name="lineDescription1">img_1</string>
+    <string name="lineDescription2">img_2</string>
+    <string name="lineDescription3">img_3</string>
+    <string name="lineDescription4">img_4</string>
+    <string name="btn_privacyPolicyText">Política de Privacidade</string>
+    <string name="opponentLeaftText">O seu oponente deixou a partida</string>
+    <string name="learnToPlayTitle">Aprenda a jogar</string>
+    <string name="learnMessageText">Deseja fazer o tutorial inicial ? (é recomendável apertar SIM)</string>
+    <string name="helpGuesses1">Nesse palpite você acertou</string>
+    <string name="helpGuesses2">número(s) na posição correta(O) e</string>
+    <string name="helpGuesses3">na posição incorreta(X)</string>
+    <string name="Oexplaining">O- digitos na posição correta</string>
+    <string name="Xexplaining">X- digitos na posição incorreta</string>
+    <string name="helpDescription_text">helpImg</string>
+    <string name="googlePlayServicesError">Por favor, atualize ou instale os google play services antes de usar o aplicativo.</string>
+</resources>

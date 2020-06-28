@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id">126215526248</string>
+    <string name="package_name">com.longynuss.guessgame</string>
+    <string name="achievement_i_never_give_up_">CgkI6K6gmNYDEAIQAA</string>
+    <string name="achievement_i_am_getting_better">CgkI6K6gmNYDEAIQAQ</string>
+    <string name="achievement_logical_brain">CgkI6K6gmNYDEAIQAg</string>
+    <string name="achievement_im_not_kidding_here">CgkI6K6gmNYDEAIQAw</string>
+    <string name="achievement_yes_i_just_did_that_">CgkI6K6gmNYDEAIQBA</string>
+    <string name="achievement_what_a_lucky_son_of_a...">CgkI6K6gmNYDEAIQBQ</string>
+    <string name="achievement_searching_the_luck">CgkI6K6gmNYDEAIQBg</string>
+    <string name="achievement_starting_to_learn">CgkI6K6gmNYDEAIQBw</string>
+    <string name="achievement_logic_always_wins">CgkI6K6gmNYDEAIQCA</string>
+    <string name="achievement_no_chance_for_the_opponent">CgkI6K6gmNYDEAIQCQ</string>
+    <string name="achievement_what_just_happened_">CgkI6K6gmNYDEAIQCg</string>
+    <string name="achievement_oh_come_on_your_friend_told_you_">CgkI6K6gmNYDEAIQCw</string>
+    <string name="leaderboard_ranking">CgkI6K6gmNYDEAIQDA</string>
+
+    <!--ad unit id. -->
+    <string name="ad_unit_id">ca-app-pub-3178146623136354/2348902101</string> 
+</resources>
